@@ -1,0 +1,4 @@
+source;share/ebot_URDF/hook/cmake_prefix_path.dsv
+source;share/ebot_URDF/hook/cmake_prefix_path.sh
+source;share/ebot_URDF/local_setup.dsv
+source;share/ebot_URDF/local_setup.sh

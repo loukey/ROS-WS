@@ -1,0 +1,368 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78bbc9830be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78bbc9830be0>>)
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.184s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/za/Documents/code/ros-ws'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(interface_demo/action) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/action_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/action_demo) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/action_demo) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/action_demo) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/action_demo) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo/action_demo' with type 'ros.ament_python' and name 'action_demo'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/config) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/interface_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/interface_demo) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/interface_demo) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/interface_demo) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/interface_demo) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo/interface_demo' with type 'ros.ament_cmake' and name 'interface_demo'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/node_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/node_demo) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/node_demo) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/node_demo) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/node_demo) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo/node_demo' with type 'ros.ament_python' and name 'node_demo'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/service_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/service_demo) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/service_demo) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/service_demo) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/service_demo) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo/service_demo' with type 'ros.ament_python' and name 'service_demo'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/topic_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/topic_demo) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/topic_demo) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/topic_demo) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo/topic_demo) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo/topic_demo' with type 'ros.ament_python' and name 'topic_demo'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_URDF) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_URDF) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_URDF) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_URDF) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ebot_URDF) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ebot_URDF' with type 'ros.ament_cmake' and name 'ebot_URDF'
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'cmake_args' from command line to 'None'
+[0.219s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'ebot_URDF' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'ebot_URDF' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/za/Documents/code/ros-ws/build/ebot_URDF', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/za/Documents/code/ros-ws/install/ebot_URDF', 'merge_install': False, 'path': '/home/za/Documents/code/ros-ws/src/ebot_URDF', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'interface_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'interface_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/za/Documents/code/ros-ws/build/interface_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/za/Documents/code/ros-ws/install/interface_demo', 'merge_install': False, 'path': '/home/za/Documents/code/ros-ws/src/demo/interface_demo', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'node_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'node_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/za/Documents/code/ros-ws/build/node_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/za/Documents/code/ros-ws/install/node_demo', 'merge_install': False, 'path': '/home/za/Documents/code/ros-ws/src/demo/node_demo', 'symlink_install': False, 'test_result_base': None}
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_target' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.220s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.220s] DEBUG:colcon.colcon_core.verb:Building package 'topic_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/za/Documents/code/ros-ws/build/topic_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/za/Documents/code/ros-ws/install/topic_demo', 'merge_install': False, 'path': '/home/za/Documents/code/ros-ws/src/demo/topic_demo', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'action_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/za/Documents/code/ros-ws/build/action_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/za/Documents/code/ros-ws/install/action_demo', 'merge_install': False, 'path': '/home/za/Documents/code/ros-ws/src/demo/action_demo', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'service_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/za/Documents/code/ros-ws/build/service_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/za/Documents/code/ros-ws/install/service_demo', 'merge_install': False, 'path': '/home/za/Documents/code/ros-ws/src/demo/service_demo', 'symlink_install': False, 'test_result_base': None}
+[0.221s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.222s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ebot_URDF'
+[0.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/za/Documents/code/ros-ws/src/ebot_URDF' with build type 'ament_cmake'
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/za/Documents/code/ros-ws/src/ebot_URDF'
+[0.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/za/Documents/code/ros-ws/src/demo/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.224s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/za/Documents/code/ros-ws/src/demo/install/topic_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.224s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/za/Documents/code/ros-ws/src/demo/install/service_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.224s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/za/Documents/code/ros-ws/src/demo/install/node_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.224s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/za/Documents/code/ros-ws/src/demo/install/action_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.224s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/za/Documents/code/ros-ws/src/demo/install/interface_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.224s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/za/Documents/code/ros-ws/src/demo/install/interface_demo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/build/ebot_URDF': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/za/Documents/code/ros-ws/build/ebot_URDF -- -j2 -l2
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/build/ebot_URDF' returned '0': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/za/Documents/code/ros-ws/build/ebot_URDF -- -j2 -l2
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/build/ebot_URDF': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/za/Documents/code/ros-ws/build/ebot_URDF
+[0.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_URDF)
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/build/ebot_URDF' returned '0': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/za/Documents/code/ros-ws/build/ebot_URDF
+[0.300s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF' for CMake module files
+[0.301s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF' for CMake config files
+[0.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_URDF', 'cmake_prefix_path')
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/hook/cmake_prefix_path.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/hook/cmake_prefix_path.sh'
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/bin'
+[0.302s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/lib/pkgconfig/ebot_URDF.pc'
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/lib/python3.10/site-packages'
+[0.303s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/bin'
+[0.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/package.dsv'
+[0.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/package.sh'
+[0.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/ebot_URDF/share/colcon-core/packages/ebot_URDF)
+[0.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebot_URDF)
+[0.322s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF' for CMake module files
+[0.323s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF' for CMake config files
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('ebot_URDF', 'cmake_prefix_path')
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/hook/cmake_prefix_path.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/hook/cmake_prefix_path.sh'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/bin'
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/lib/pkgconfig/ebot_URDF.pc'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/lib/python3.10/site-packages'
+[0.325s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/ebot_URDF/bin'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/package.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/ebot_URDF/share/ebot_URDF/package.sh'
+[0.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/ebot_URDF/share/colcon-core/packages/ebot_URDF)
+[0.327s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ebot_URDF' finished with '0'
+[0.327s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'interface_demo'
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/za/Documents/code/ros-ws/src/demo/interface_demo' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/za/Documents/code/ros-ws/src/demo/interface_demo'
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/build/interface_demo': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/za/Documents/code/ros-ws/build/interface_demo -- -j2 -l2
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/build/interface_demo' returned '0': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/za/Documents/code/ros-ws/build/interface_demo -- -j2 -l2
+[0.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/build/interface_demo': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/za/Documents/code/ros-ws/build/interface_demo
+[0.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_demo)
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo' for CMake module files
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/build/interface_demo' returned '0': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/action_demo:/home/za/Documents/code/ros-ws/src/demo/install/topic_demo:/home/za/Documents/code/ros-ws/src/demo/install/service_demo:/home/za/Documents/code/ros-ws/src/demo/install/node_demo:/home/za/Documents/code/ros-ws/src/demo/install/action_demo:/home/za/Documents/code/ros-ws/install/service_demo:/home/za/Documents/code/ros-ws/install/topic_demo:/home/za/Documents/code/ros-ws/install/node_demo:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/za/Documents/code/ros-ws/build/interface_demo
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo' for CMake config files
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_demo', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/cmake_prefix_path.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/lib'
+[0.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_demo', 'ld_library_path_lib')
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/ld_library_path_lib.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/ld_library_path_lib.sh'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/bin'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/lib/pkgconfig/interface_demo.pc'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/lib/python3.10/site-packages'
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/bin'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/package.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/package.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/interface_demo/share/colcon-core/packages/interface_demo)
+[1.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_demo)
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo' for CMake module files
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo' for CMake config files
+[1.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_demo', 'cmake_prefix_path')
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/cmake_prefix_path.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/cmake_prefix_path.sh'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/lib'
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_demo', 'ld_library_path_lib')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/ld_library_path_lib.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/hook/ld_library_path_lib.sh'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/bin'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/lib/pkgconfig/interface_demo.pc'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/lib/python3.10/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/interface_demo/bin'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/package.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/interface_demo/share/interface_demo/package.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/interface_demo/share/colcon-core/packages/interface_demo)
+[1.088s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'interface_demo' finished with '0'
+[1.088s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'node_demo'
+[1.088s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/za/Documents/code/ros-ws/src/demo/node_demo' with build type 'ament_python'
+[1.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_demo', 'ament_prefix_path')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/node_demo/share/node_demo/hook/ament_prefix_path.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/node_demo/share/node_demo/hook/ament_prefix_path.sh'
+[1.089s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.253s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/za/Documents/code/ros-ws/src/demo/node_demo'
+[1.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/src/demo/node_demo': PYTHONPATH=/home/za/Documents/code/ros-ws/build/node_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/node_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/node_demo build --build-base /home/za/Documents/code/ros-ws/build/node_demo/build install --record /home/za/Documents/code/ros-ws/build/node_demo/install.log --single-version-externally-managed install_data
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/node_demo' for CMake module files
+[1.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/src/demo/node_demo' returned '0': PYTHONPATH=/home/za/Documents/code/ros-ws/build/node_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/node_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/node_demo build --build-base /home/za/Documents/code/ros-ws/build/node_demo/build install --record /home/za/Documents/code/ros-ws/build/node_demo/install.log --single-version-externally-managed install_data
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/node_demo' for CMake config files
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/node_demo/lib'
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/node_demo/bin'
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/node_demo/lib/pkgconfig/node_demo.pc'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/node_demo/lib/python3.10/site-packages'
+[1.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_demo', 'pythonpath')
+[1.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/node_demo/share/node_demo/hook/pythonpath.dsv'
+[1.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/node_demo/share/node_demo/hook/pythonpath.sh'
+[1.736s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/node_demo/bin'
+[1.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_demo)
+[1.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/node_demo/share/node_demo/package.dsv'
+[1.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/node_demo/share/node_demo/package.sh'
+[1.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/node_demo/share/colcon-core/packages/node_demo)
+[1.739s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'node_demo' finished with '0'
+[1.739s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'topic_demo'
+[1.739s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/za/Documents/code/ros-ws/src/demo/topic_demo' with build type 'ament_python'
+[1.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_demo', 'ament_prefix_path')
+[1.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/topic_demo/share/topic_demo/hook/ament_prefix_path.dsv'
+[1.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/topic_demo/share/topic_demo/hook/ament_prefix_path.sh'
+[1.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.875s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/za/Documents/code/ros-ws/src/demo/topic_demo'
+[1.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/src/demo/topic_demo': PYTHONPATH=/home/za/Documents/code/ros-ws/build/topic_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/topic_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/topic_demo build --build-base /home/za/Documents/code/ros-ws/build/topic_demo/build install --record /home/za/Documents/code/ros-ws/build/topic_demo/install.log --single-version-externally-managed install_data
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/topic_demo' for CMake module files
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/topic_demo' for CMake config files
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/src/demo/topic_demo' returned '0': PYTHONPATH=/home/za/Documents/code/ros-ws/build/topic_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/topic_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/topic_demo build --build-base /home/za/Documents/code/ros-ws/build/topic_demo/build install --record /home/za/Documents/code/ros-ws/build/topic_demo/install.log --single-version-externally-managed install_data
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/topic_demo/lib'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/topic_demo/bin'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/topic_demo/lib/pkgconfig/topic_demo.pc'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/topic_demo/lib/python3.10/site-packages'
+[2.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_demo', 'pythonpath')
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/topic_demo/share/topic_demo/hook/pythonpath.dsv'
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/topic_demo/share/topic_demo/hook/pythonpath.sh'
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/topic_demo/bin'
+[2.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_demo)
+[2.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/topic_demo/share/topic_demo/package.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/topic_demo/share/topic_demo/package.sh'
+[2.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/topic_demo/share/colcon-core/packages/topic_demo)
+[2.249s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'topic_demo' finished with '0'
+[2.249s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'action_demo'
+[2.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/za/Documents/code/ros-ws/src/demo/action_demo' with build type 'ament_python'
+[2.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_demo', 'ament_prefix_path')
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/action_demo/share/action_demo/hook/ament_prefix_path.dsv'
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/action_demo/share/action_demo/hook/ament_prefix_path.sh'
+[2.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.414s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/za/Documents/code/ros-ws/src/demo/action_demo'
+[2.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/src/demo/action_demo': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/interface_demo:/home/za/Documents/code/ros-ws/install/ebot_URDF:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo LD_LIBRARY_PATH=/home/za/Documents/code/ros-ws/install/interface_demo/lib:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/za/Documents/code/ros-ws/build/action_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/action_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/action_demo build --build-base /home/za/Documents/code/ros-ws/build/action_demo/build install --record /home/za/Documents/code/ros-ws/build/action_demo/install.log --single-version-externally-managed install_data
+[2.997s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/action_demo' for CMake module files
+[2.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/src/demo/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/interface_demo:/home/za/Documents/code/ros-ws/install/ebot_URDF:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo LD_LIBRARY_PATH=/home/za/Documents/code/ros-ws/install/interface_demo/lib:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/za/Documents/code/ros-ws/build/action_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/action_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/action_demo build --build-base /home/za/Documents/code/ros-ws/build/action_demo/build install --record /home/za/Documents/code/ros-ws/build/action_demo/install.log --single-version-externally-managed install_data
+[2.998s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/action_demo' for CMake config files
+[2.998s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/action_demo/lib'
+[2.998s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/action_demo/bin'
+[2.998s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/action_demo/lib/pkgconfig/action_demo.pc'
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/action_demo/lib/python3.10/site-packages'
+[2.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_demo', 'pythonpath')
+[2.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/action_demo/share/action_demo/hook/pythonpath.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/action_demo/share/action_demo/hook/pythonpath.sh'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/action_demo/bin'
+[3.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_demo)
+[3.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/action_demo/share/action_demo/package.dsv'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/action_demo/share/action_demo/package.sh'
+[3.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/action_demo/share/colcon-core/packages/action_demo)
+[3.050s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'action_demo' finished with '0'
+[3.050s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'service_demo'
+[3.050s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/za/Documents/code/ros-ws/src/demo/service_demo' with build type 'ament_python'
+[3.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_demo', 'ament_prefix_path')
+[3.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/service_demo/share/service_demo/hook/ament_prefix_path.dsv'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/service_demo/share/service_demo/hook/ament_prefix_path.sh'
+[3.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.271s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/za/Documents/code/ros-ws/src/demo/service_demo'
+[3.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/za/Documents/code/ros-ws/src/demo/service_demo': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/interface_demo:/home/za/Documents/code/ros-ws/install/ebot_URDF:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo LD_LIBRARY_PATH=/home/za/Documents/code/ros-ws/install/interface_demo/lib:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/za/Documents/code/ros-ws/build/service_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/service_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/service_demo build --build-base /home/za/Documents/code/ros-ws/build/service_demo/build install --record /home/za/Documents/code/ros-ws/build/service_demo/install.log --single-version-externally-managed install_data
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/service_demo' for CMake module files
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/service_demo' for CMake config files
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/service_demo/lib'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/service_demo/bin'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/service_demo/lib/pkgconfig/service_demo.pc'
+[3.970s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/service_demo/lib/python3.10/site-packages'
+[3.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_demo', 'pythonpath')
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/za/Documents/code/ros-ws/install/service_demo/share/service_demo/hook/pythonpath.dsv'
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/za/Documents/code/ros-ws/install/service_demo/share/service_demo/hook/pythonpath.sh'
+[3.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/za/Documents/code/ros-ws/src/demo/service_demo' returned '0': CMAKE_PREFIX_PATH=/home/za/Documents/code/ros-ws/install/interface_demo:/home/za/Documents/code/ros-ws/install/ebot_URDF:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo LD_LIBRARY_PATH=/home/za/Documents/code/ros-ws/install/interface_demo/lib:/home/za/Documents/code/ros-ws/src/demo/install/interface_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/za/Documents/code/ros-ws/build/service_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/za/Documents/code/ros-ws/install/service_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/service_demo build --build-base /home/za/Documents/code/ros-ws/build/service_demo/build install --record /home/za/Documents/code/ros-ws/build/service_demo/install.log --single-version-externally-managed install_data
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/za/Documents/code/ros-ws/install/service_demo/bin'
+[3.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_demo)
+[3.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/za/Documents/code/ros-ws/install/service_demo/share/service_demo/package.dsv'
+[3.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/za/Documents/code/ros-ws/install/service_demo/share/service_demo/package.sh'
+[3.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/za/Documents/code/ros-ws/install/service_demo/share/colcon-core/packages/service_demo)
+[3.975s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'service_demo' finished with '0'
+[3.975s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[3.975s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[3.976s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.976s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/za/Documents/code/ros-ws/install/local_setup.sh'
+[3.976s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/za/Documents/code/ros-ws/install/_local_setup_util_sh.py'
+[3.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/za/Documents/code/ros-ws/install/setup.sh'

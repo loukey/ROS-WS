@@ -1,4 +1,0 @@
-[console_scripts]
-action_client = action_demo.action_client:main
-action_server = action_demo.action_server:main
-

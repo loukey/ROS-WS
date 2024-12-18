@@ -1,6 +1,0 @@
-{
-  "package_name": "service_demo",
-  "non_idl_tuples": [
-    "/home/za/Documents/code/ros-ws/src/demo/service_demo:srv/AddTwoInts.srv"
-  ]
-}

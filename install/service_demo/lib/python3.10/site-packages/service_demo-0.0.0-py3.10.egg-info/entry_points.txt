@@ -1,4 +1,0 @@
-[console_scripts]
-service_client = service_demo.service_client:main
-service_server = service_demo.service_server:main
-

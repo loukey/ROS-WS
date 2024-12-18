@@ -1,5 +1,0 @@
-bool enable
----
-bool finish
----
-int32 state

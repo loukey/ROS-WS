@@ -1,4 +1,0 @@
-[console_scripts]
-topic_pub = topic_demo.topic_pub:main
-topic_sub = topic_demo.topic_sub:main
-
